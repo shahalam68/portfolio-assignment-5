@@ -1,0 +1,87 @@
+.con-item{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+
+
+.item{
+  width: 294px;
+  margin: 8px !important;
+}
+
+
+.forimg img{
+    width: 100px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  .example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 45%;
+    margin-left: 200px;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  .example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #F06C4E;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  .example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  .example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .for-menu-img img{
+      width: 100%;
+  }
+  .for-menu-img h5{
+      text-align: center;
+  }
+  .for-cover img{
+      width: 40%;
+      margin-left: 200px;
+  }
+  .for-cover h2,h4{
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  .fa-ul{
+    margin-left: 220px !important;
+    margin-top: 20px;
+  }
+
+  .alert{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+
+  }
+  .fa-ul i{
+    color: #F06C4E;
+  }
+  

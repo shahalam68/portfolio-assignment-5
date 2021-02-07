@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header class="container">
+      <nav class="navbar navbar-expand-lg navbar-light  menu">
+        <div class="container-fluid forimg ">
+            <img src="img/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link "href=>Home</a>
+              <a class="nav-link" href=>About</a>
+              <a class="nav-link" href=>Recipes</a>
+              <a class="nav-link" href=>Blog</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="search" class="container">
+
+        <div class="example">
+          <input  id="input-field"  type="text" placeholder="Search.."  name="search">
+          <button onclick="getItemList()" type="submit"><i class="fa fa-search"></i></button>
+        </div>
+
+    </section>
+    <div id="alert" class="alert">
+          
+    </div>
+    <section id="item-list" class="pl-5 for-menu-img con-item">
+    </section>
+
+    <section id="single-item" class="container for-cover justify-content-center">
+
+   </section>
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="api.js"></script>
+</body>
+</html>
